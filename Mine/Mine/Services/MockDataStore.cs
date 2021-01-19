@@ -14,12 +14,11 @@ namespace Mine.Services
         {
             items = new List<ItemModel>()
             {
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Master Sword", Description="A legendary sword only to be wielded by a true hero.", Value=10 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Hylian Shield", Description="A light and sturdy shield wielded by knights of the highest order.", Value=8 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Bow of Light", Description="A powerful bow blessed by the Princess to seal away the darkness.", Value=9 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Pot Lid", Description="A basic wooden pot lid that can be used as a shield.", Value=1 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Soup Ladle", Description="A kitchen tool used for cooking and serving soup. Can be used as a weapon if necessary.", Value=2 },
             };
         }
 
