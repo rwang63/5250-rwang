@@ -88,7 +88,7 @@ namespace Mine.Services
         /// Finds and reads an item from the database
         /// </summary>
         /// <param name="id"></param>
-        /// <returns></returns>
+        /// <returns>If id is not null, returns the item, otherwise returns null</returns>
         public Task<ItemModel> ReadAsync(string id)
         {
             if (id == null)
