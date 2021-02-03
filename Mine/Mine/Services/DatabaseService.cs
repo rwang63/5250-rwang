@@ -40,7 +40,7 @@ namespace Mine.Services
         /// <summary>
         /// Creates / inserts an item in the database
         /// </summary>
-        /// <param name="item"></param>
+        /// <param name="item">If item is null, return false. If sucessfully created, returns true.</param>
         /// <returns></returns>
         public async Task<bool> CreateAsync(ItemModel item)
         {
