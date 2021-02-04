@@ -8,7 +8,7 @@ namespace Mine.Helpers
     {
         private static Random rnd = new Random();
 
-        public static bool ForceRoolsToNotRandom = false;
+        public static bool ForceRollsToNotRandom = false;
 
         public static int ForcedRandomValue = 1;
 
